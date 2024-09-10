@@ -1,11 +1,12 @@
 import './App.css'
-import Sidebar from './sticky/Sidebar'
+import Fixedside from './sticky/Fixedside'
+
 
 
 function App() {
   return (
     <div className='flex'>
-      <Sidebar />
+      <Fixedside />
       <div className="body">
 
       </div>

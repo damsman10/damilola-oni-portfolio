@@ -2,7 +2,7 @@ import ImageSocials from "./stickycomps/ImageSocials"
 import NavMenu from "./stickycomps/NavMenu"
 
 
-const Sidebar = () => {
+const Fixedside = () => {
   return (
     <div className="h-[100vh] w-[20%]" style={{backgroundColor: "#040B14"}}>
         <ImageSocials />
@@ -11,4 +11,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Fixedside
