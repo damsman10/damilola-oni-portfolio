@@ -1,11 +1,13 @@
-import dami from '../../assets/Dami-at-port.jpg'
+// import dami from '../../assets/Dami-at-port.jpg'
 
 const ImageSocials = () => {
   return (
     <div className="mt-4" >
 
         <div className="outercircle w-[7rem] h-[7rem] rounded-[50%] flex justify-center items-center m-auto" style={{backgroundColor: "#292F37"}}>
-            <div className="innercircle w-[6rem] h-[6rem] rounded-[50%] bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${dami})`}}>
+            <div className="innercircle w-[6rem] h-[6rem] rounded-[50%] bg-cover bg-center bg-no-repeat" 
+            // style={{backgroundImage: `url(${dami})`}}
+            >
                 {/* <img src= {dami} alt="" /> */}
             </div>
         </div>
