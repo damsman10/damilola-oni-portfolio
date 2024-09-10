@@ -7,9 +7,9 @@ function App() {
   return (
     <div className='flex'>
       <Fixedside />
-      <div className="body">
+      {/* <div className="body">
 
-      </div>
+      </div> */}
     </div>
   )
 }
