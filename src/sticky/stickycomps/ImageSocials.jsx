@@ -1,4 +1,9 @@
 import dami from '../stickyassets/Dami-at-port.JPG'
+import twitter from '../stickyassets/x-solid.svg'
+import linkedin from '../stickyassets/linkedin-solid.svg'
+import github from '../stickyassets/github-solid.svg'
+import whatsapp from '../stickyassets/whatsapp-solid.svg'
+import blog from '../stickyassets/blog-solid.svg'
 
 const ImageSocials = () => {
   return (
@@ -13,23 +18,21 @@ const ImageSocials = () => {
         </div>
         <h1 className="text-center font-bold text-[white] my-2">Damilola Oni</h1>
         <div className="socials flex justify-center gap-3 items-center">
-            <div className="twitter cursor-pointer">
-                
-            </div>
-            <div className="linkedin w-9 h-9 rounded-[50%]" style={{backgroundColor: "#292F37"}}>
 
+            <div className="linkedin w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+                <img src={linkedin} alt="" />
             </div>
-            <div className="github w-9 h-9 rounded-[50%]" style={{backgroundColor: "#292F37"}}>
-
+            <div className="github w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+                <img src={github} alt="" />
             </div>
-            <div className="skype w-9 h-9 rounded-[50%]" style={{backgroundColor: "#292F37"}}>
-
+            <div className="skype w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+                <img src={blog} alt="" />
             </div>
-            <div className="twitter w-9 h-9 rounded-[50%]" style={{backgroundColor: "#292F37"}}>
-
+            <div className="twitter w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+                <img src={whatsapp} alt="" />
             </div>
-            <div className="twitter w-9 h-9 rounded-[50%]" style={{backgroundColor: "#292F37"}}>
-
+            <div className="twitter w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+                <img src={twitter} alt="" />
             </div>
         </div>
     </div>
