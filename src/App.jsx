@@ -1,5 +1,5 @@
 import './App.css'
-import Sidebar from './sticky/sidebar'
+import Sidebar from './sticky/Sidebar'
 
 
 function App() {
