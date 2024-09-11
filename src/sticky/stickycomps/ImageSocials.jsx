@@ -17,21 +17,21 @@ const ImageSocials = () => {
             </div>
         </div>
         <h1 className="text-center font-bold text-[white] my-2">Damilola Oni</h1>
-        <div className="socials flex justify-center gap-3 items-center">
+        <div className="socials flex justify-center gap-3 items-center my-3">
 
-            <div className="linkedin w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+            <div className="linkedin w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center bg-[#292F37] hover:bg-blue-700">
                 <img src={linkedin} alt="" />
             </div>
-            <div className="github w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+            <div className="github w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center bg-[#292F37] hover:bg-blue-700">
                 <img src={github} alt="" />
             </div>
-            <div className="skype w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+            <div className="skype w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center bg-[#292F37] hover:bg-blue-700">
                 <img src={blog} alt="" />
             </div>
-            <div className="twitter w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+            <div className="twitter w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center bg-[#292F37] hover:bg-blue-700">
                 <img src={whatsapp} alt="" />
             </div>
-            <div className="twitter w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center" style={{backgroundColor: "#292F37"}}>
+            <div className="twitter w-9 h-9 rounded-[50%] cursor-pointer flex justify-center items-center bg-[#292F37] hover:bg-blue-700">
                 <img src={twitter} alt="" />
             </div>
         </div>

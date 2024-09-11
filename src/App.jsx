@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './pages/Home'
 import Fixedside from './sticky/Fixedside'
 
 
@@ -6,10 +7,11 @@ import Fixedside from './sticky/Fixedside'
 function App() {
   return (
     <div className='flex'>
-      <Fixedside />
-      {/* <div className="body">
+        <Fixedside />
 
-      </div> */}
+      <div className='w-[83%]'>
+        <Home />
+      </div>
     </div>
   )
 }
