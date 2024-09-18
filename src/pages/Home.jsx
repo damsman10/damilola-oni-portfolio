@@ -1,15 +1,20 @@
-import damibeach from './pageassets/damibeach.jpg'
+import damibeach from './pageassets/damibeach.jpg';
 
 const Home = () => {
   return (
-    <div className="relative left-[20.5%] bg-cover w-[82.1vw] h-[100vh]" style={{backgroundImage: `url(${damibeach})`}}>
-        
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-  
-        <h1 className="relative w-[30rem] left-[4%] top-[40%] text-white text-[3.5rem] font-bold z-10">Damilola Oni</h1>
-        <p className="relative w-[40rem] left-[4.2%] top-[42%] text-white text-[1.5rem] font-bold z-10">I am a frontend developer</p>
-    </div>
-  )
-}
+    <div className="relative bg-cover bg-center h-screen" style={{ backgroundImage: `url(${damibeach})` }}>
+      <div className="absolute inset-0 bg-black opacity-50"></div>
 
-export default Home
+      <div className="relative flex flex-col items-center justify-center h-full z-10 text-center px-4">
+        <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          Damilola Oni
+        </h1>
+        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">
+          I am a frontend developer
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

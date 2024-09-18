@@ -4,7 +4,7 @@ import NavMenu from "./stickycomps/NavMenu"
 
 const Fixedside = () => {
   return (
-    <div className="fixed h-[100vh] w-[17rem] z-10" style={{backgroundColor: "#040B14"}}>
+    <div className="fixed hidden lg:block h-[100vh] min-w-[16%] w-[20%] z-10" style={{backgroundColor: "#040B14"}}>
         <ImageSocials />
         <NavMenu />
     </div>
