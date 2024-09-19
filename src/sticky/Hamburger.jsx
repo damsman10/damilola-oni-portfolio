@@ -16,7 +16,7 @@ const HamburgerMenu = () => {
       {/* Button for hamburger menu */}
       <button
         onClick={toggleMenu}
-        className="fixed top-4 right-4 w-12 h-12 flex items-center justify-center bg-blue-600 text-white rounded-full shadow-lg z-50"
+        className="fixed top-4 right-4 w-12 h-12 flex items-center justify-center bg-blue-600 text-white rounded-full shadow-lg z-50 lg:hidden"
       >
         {isOpen ? (
           <XIcon className="w-6 h-6" />
