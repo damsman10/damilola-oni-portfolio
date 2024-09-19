@@ -11,10 +11,10 @@ import snap from './pageassets/snap-pagw.jpg'
 
 const Portfolio = () => {
   return (
-    <div className="relative bg-white mb-4">
-      <h1 className="mt-12 ml-8 text-[2rem] font-bold">Portfolio</h1>
+    <div className="relative bg-white mb-4 mt-12 ml-8">
+      <h1 className="text-[2rem] font-bold">Portfolio</h1>
       <hr className="border-2 border-blue-500 w-[3.2rem] mt-4 ml-8" />
-      <p className="ml-8 my-3 leading-7">
+      <p className="my-3 leading-7">
         These are some of my completed projects and the ones I am currently working on
       </p>
 

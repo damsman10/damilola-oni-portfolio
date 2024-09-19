@@ -3,20 +3,20 @@ import Skills from './pagecomponents/Skills';
 
 const About = () => {
   return (
-    <div className="relative bg-white p-4 sm:p-8 md:p-12 lg:p-16">
+    <div className="relative bg-white mt-12 ml-8 mb-4">
       <h1 className="text-[1.5rem] sm:text-[2rem] font-bold">About</h1>
       <hr className="border-2 border-blue-500 w-[3.2rem] mt-4" />
       <p className="mt-4 text-[0.9rem] sm:text-[1rem] leading-7">
         I am a frontend developer with over 6 years of experience working with web technologies such as HTML, CSS, JavaScript, and WordPress, React, Tailwind CSS, and Git version control. My journey in tech has equipped me with a diverse set of skills, and I am proud to hold international certifications, including Oracle Database SQL Certified Expert (OCE), Adobe Certified Associate (ACA) in Web Communications using Adobe Dreamweaver, and several New Horizons certifications in Java, Comptia A+, and CCNA, among others.
       </p>
 
-      <div className="flex flex-col sm:flex-row gap-8 mt-8">
-        <div className="w-full sm:w-1/3">
-          <div className="border-2 w-full object-cover">
-            <img src={damiplane} alt="Damilola Oni" className="w-full h-auto" />
+      <div className="flex flex-col sm:flex-row sm:items-center gap-6 mt-8">
+        <div className="w-full sm:w-[20%]">
+          <div className="w-full object-cover flex">
+            <img src={damiplane} alt="Damilola Oni" className="w-[80%] h-auto" />
           </div>
         </div>
-        <div className="w-full sm:w-2/3">
+        <div className="w-full sm:w-[70%]">
           <h2 className="text-[1.2rem] sm:text-[1.4rem] font-bold">Technical Officer and Web Developer</h2>
           <p className="mt-4 leading-7">
             Professionally, I serve as the Technical Officer at Daily Post Media Ltd, where I continue to leverage my expertise in web technologies and contribute to the organization's digital initiatives.

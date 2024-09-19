@@ -3,7 +3,7 @@ import Experience from './pagecomponents/Experience';
 
 const Resume = () => {
   return (
-    <div className="bg-white py-6 px-4 sm:px-8 md:px-12 lg:px-16">
+    <div className="relative bg-white mt-12 ml-8 mb-4">
       <h1 className="text-[1.5rem] sm:text-[2rem] font-bold mb-4">Resume</h1>
       <hr className="border-2 border-blue-500 w-[3.2rem] mb-4" />
       <p className="leading-7 mb-6">
@@ -51,15 +51,15 @@ const Resume = () => {
 
           <h2 className="text-red-500 font-bold text-[1.3rem] mt-8 mb-4">CERTIFICATIONS</h2>
           <ul className="list-disc ml-8 mt-4 space-y-2">
-            <li>- Oracle Database SQL Certified Expert (OCE), <span className="font-bold">Oracle Corporation</span></li>
-            <li>- SQL Database Management, <span className="font-bold">New Horizons</span></li>
-            <li>- Java Programming Language, <span className="font-bold">New Horizons</span></li>
-            <li>- Comptia A+, <span className="font-bold">New Horizons</span></li>
-            <li>- Adobe Certified Associate (ACA) Web Communication using Adobe Dreamweaver, <span className="font-bold">Adobe</span></li>
-            <li>- Cisco Certified Network Associate (CCNA), <span className="font-bold">New Horizons</span></li>
-            <li>- Software Development Training, <span className="font-bold">SAIL</span></li>
-            <li>- Certified Associate in Project Management, <span className="font-bold">Olabod Project Consult Limited</span></li>
-            <li>- Microsoft Project Certification, <span className="font-bold">Olabod Project Consult Limited</span></li>
+            <li>Oracle Database SQL Certified Expert (OCE), <span className="font-bold">Oracle Corporation</span></li>
+            <li>SQL Database Management, <span className="font-bold">New Horizons</span></li>
+            <li>Java Programming Language, <span className="font-bold">New Horizons</span></li>
+            <li>Comptia A+, <span className="font-bold">New Horizons</span></li>
+            <li>Adobe Certified Associate (ACA) Web Communication using Adobe Dreamweaver, <span className="font-bold">Adobe</span></li>
+            <li>Cisco Certified Network Associate (CCNA), <span className="font-bold">New Horizons</span></li>
+            <li>Software Development Training, <span className="font-bold">SAIL</span></li>
+            <li>Certified Associate in Project Management, <span className="font-bold">Olabod Project Consult Limited</span></li>
+            <li>Microsoft Project Certification, <span className="font-bold">Olabod Project Consult Limited</span></li>
           </ul>
         </div>
 

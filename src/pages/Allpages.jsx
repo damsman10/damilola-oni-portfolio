@@ -5,6 +5,7 @@ import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import NotFound from './NotFound';
+import Services from './Services';
 
 const Allpages = () => {
   return (
@@ -15,6 +16,7 @@ const Allpages = () => {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

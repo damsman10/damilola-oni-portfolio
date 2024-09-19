@@ -3,7 +3,7 @@ import link from '../pageassets/link-solid.svg'
 const Porto = (props) => {
     return (
         <div 
-            className="relative ml-8 mt-6 w-[22rem] h-[15rem] shadow-2xl bg-cover bg-center transition-all duration-300 hover:opacity-100 group" 
+            className="relative mt-6 w-[22rem] h-[15rem] shadow-2xl bg-cover bg-center transition-all duration-300 hover:opacity-100 group" 
             style={{ backgroundImage: `url(${props.pic})` }}
         >
             {/* Overlay */}

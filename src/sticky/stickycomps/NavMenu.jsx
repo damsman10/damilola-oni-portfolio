@@ -62,6 +62,25 @@ const NavMenu = ({ onMenuItemClick }) => {
           </NavLink>
         </li>
         <li className="cursor-pointer flex items-center space-x-2 group hover:text-white transition duration-300 ease-in-out">
+          <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              `flex items-center space-x-2 ${isActive ? 'text-white' : 'text-gray-400'}`
+            }
+            onClick={onMenuItemClick}
+          >
+            <svg
+              className="w-6 h-6 fill-current group-hover:text-blue-700 transition duration-300 ease-in-out"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path d="M487.9 315.1l-41.6-16.5c2.3-14.3 3.7-29.2 3.7-44.6s-1.4-30.3-3.7-44.6l41.6-16.5c8.5-3.4 12.8-12.9 9.5-21.4l-19.7-48.1c-3.4-8.5-12.9-12.8-21.4-9.5l-41.7 16.5c-12-12.5-25.9-23.5-41.4-32.7l5.7-44.9c1.1-9-5.5-17.2-14.5-18.4l-51.8-7.4c-9-1.3-17.5 5.3-18.4 14.5l-5.7 44.9c-15.5-3.9-31.8-6-48.6-6s-33.1 2.1-48.6 6l-5.7-44.9c-1.1-9-9.4-15.8-18.4-14.5l-51.8 7.4c-9 1.3-15.6 9.5-14.5 18.4l5.7 44.9c-15.5 9.1-29.4 20.2-41.4 32.7l-41.7-16.5c-8.5-3.4-18 1-21.4 9.5L15.1 192.5c-3.4 8.5 1 18 9.5 21.4l41.6 16.5c-2.3 14.3-3.7 29.2-3.7 44.6s1.4 30.3 3.7 44.6l-41.6 16.5c-8.5 3.4-12.8 12.9-9.5 21.4l19.7 48.1c3.4 8.5 12.9 12.8 21.4 9.5l41.7-16.5c12 12.5 25.9 23.5 41.4 32.7l-5.7 44.9c-1.1 9 5.5 17.2 14.5 18.4l51.8 7.4c9 1.3 17.5-5.3 18.4-14.5l5.7-44.9c15.5 3.9 31.8 6 48.6 6s33.1-2.1 48.6-6l5.7 44.9c1.1 9 9.4 15.8 18.4 14.5l51.8-7.4c9-1.3 15.6-9.5 14.5-18.4l-5.7-44.9c15.5-9.1 29.4-20.2 41.4-32.7l41.7 16.5c8.5 3.4 18-1 21.4-9.5l19.7-48.1c3.4-8.5-1-18-9.5-21.4zM256 352c-52.9 0-96-43.1-96-96s43.1-96 96-96 96 43.1 96 96-43.1 96-96 96z" />
+            </svg>
+            <span>Services</span>
+          </NavLink>
+        </li>
+
+        <li className="cursor-pointer flex items-center space-x-2 group hover:text-white transition duration-300 ease-in-out">
           <NavLink 
             to="/contact" 
             className={({ isActive }) => 
