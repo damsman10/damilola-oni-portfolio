@@ -5,10 +5,12 @@ import Fixedside from './sticky/Fixedside';
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import HamburgerMenu from './sticky/Hamburger';
 import Footer from './sticky/Footer';
+import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AppContent />
     </Router>
   );
