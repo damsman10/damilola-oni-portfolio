@@ -2,10 +2,10 @@
 
 const Service = (props) => {
   return (
-    <div className="flex justify-between mt-6 gap-4 w-[40%] border-2 border-black">
+    <div className="flex justify-between mt-6 gap-4 w-full md:w-[40%]">
         <div className="left">
             <div className="skype w-9 h-9 rounded-[50%] flex justify-center items-center bg-[#EDF8FD] hover:bg-blue-300">
-                {/* <img src={call} alt="Call" className="w-4" /> */}
+                <img src={props.image} alt="Call" className="w-4" />
             </div>
         </div>
         <div className="right">
