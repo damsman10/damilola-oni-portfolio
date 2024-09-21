@@ -7,6 +7,7 @@ import HamburgerMenu from './sticky/Hamburger';
 import Footer from './sticky/Footer';
 import ScrollToTop from './pages/ScrollToTop';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ScrollToTop />
       <AppContent />
       <Analytics />
+      <SpeedInsights />
     </Router>
   );
 }
