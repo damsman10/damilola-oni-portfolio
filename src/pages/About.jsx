@@ -25,7 +25,7 @@ const About = () => {
           <div className="flex flex-col sm:flex-row justify-start gap-8 mt-6">
             <div className="space-y-4">
               <h3><span className="font-bold">Birthday:</span> 6th April</h3>
-              <h3><span className="font-bold">Website:</span> <a href="https://standard-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500">https://vercel.com/damilola-onis-projects/standard-portfolio</a></h3>
+              <h3><span className="font-bold">Website:</span> <a href="https://damilolaoni.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500">Damilola Oni Portfolio</a></h3>
               <h3><span className="font-bold">Phone:</span> +2348108648372</h3>
             </div>
 

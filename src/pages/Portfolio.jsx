@@ -22,11 +22,11 @@ const Portfolio = () => {
       <div className="projects flex justify-between items-center gap-4 flex-wrap mr-4">
         <Porto 
         pic = {carrental}
-        site = "#"
+        site = "/car-rental"
         />
         <Porto 
         pic = {alpha}
-        site = "#"
+        site = "/alphanews"
         />
         <Porto 
         pic = {blog}

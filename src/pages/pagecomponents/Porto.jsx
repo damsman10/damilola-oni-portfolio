@@ -13,9 +13,9 @@ const Porto = (props) => {
       
             {/* Link Image */}
             <a 
-                // href={`https://${props.site}`}
-                href={`/${props.site}`}
-                target='_blank'
+                href={`/portfolio${props.site}`}
+                // href={`/${props.site}`}
+                // target='_blank'
                 rel='noopener noreferrer'
                 className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >

@@ -6,12 +6,14 @@ import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import HamburgerMenu from './sticky/Hamburger';
 import Footer from './sticky/Footer';
 import ScrollToTop from './pages/ScrollToTop';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <AppContent />
+      <Analytics />
     </Router>
   );
 }
