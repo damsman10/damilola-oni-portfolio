@@ -4,6 +4,10 @@ import { useEffect, useState } from 'react';
 import atm from './pageassets/ATM-App.png';
 import carrental from './pageassets/Car-Rental.png';
 import alpha from './pageassets/alpha.png';
+import blog from './pageassets/blog.png';
+import atmapp from './pageassets/ATM-App.png';
+import htmlport from './pageassets/htmlportfolio.png';
+import currconv from './pageassets/curr-conv.png';
 
 // Data for PortfolioDetails
 const portfolioData = [
@@ -21,7 +25,7 @@ const portfolioData = [
   },
   {
     slug: 'alphanews',
-    category: 'Blog',
+    category: 'Newspaper',
     stack: 'Wordpress',
     status: 'Completed',
     url: '/#',
@@ -31,17 +35,51 @@ const portfolioData = [
     image: alpha,
   },
   {
+    slug: 'blog',
+    category: 'Blog',
+    stack: 'ReactJS, Tailwind CSS, Redux',
+    date: 'Ongoing',
+    url: 'https://dammy-bytes.vercel.app/',
+    title: 'My Personal Blog',
+    description:
+      'This is my personal blog',
+    image: blog,
+  },
+  {
     slug: 'atm-app',
     category: 'Finance',
-    stack: 'ReactJS, NodeJS',
+    stack: 'HTML, CSS, JS',
     date: 'Completed',
-    url: 'https://example-atm-app.vercel.app/',
+    url: 'https://damsman10.github.io/bank-web-app/',
     title: 'ATM Application',
     description:
-      'This is an ATM application built with React and NodeJS. The application allows users to simulate ATM transactions, view balances, and manage accounts efficiently.',
-    // image: dami,
+      'This is a a real banking web app where you can deposit any virtual amount with ease and send real money to friends and family anywhere around the world',
+    image: atmapp,
   },
-  // Add more portfolio items here
+  {
+    slug: 'htmlportfolio',
+    category: 'portfolio',
+    stack: 'HTML, CSS, JS',
+    date: 'Completed',
+    url: 'https://damsman10.github.io/RealPortfolio/',
+    title: 'HTML Portfolio',
+    description:
+      'This is a standard portfolio i made using html, css and javascript',
+    image: htmlport,
+  },
+  {
+    slug: 'currency-converter',
+    category: 'Finance',
+    stack: 'HTML, CSS, JS, Axios',
+    date: 'Completed',
+    url: 'https://damsman10.github.io/live-currency-converter/',
+    title: 'Live Currency Converter',
+    description:
+      'This daily updated currency converter is an application that can be used to know the current value of any of the currencies of nations around the world. The base currency is the USD.',
+    image: currconv,
+  },
+  
+  
 ];
 
 const PortfolioDetails = () => {

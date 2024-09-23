@@ -30,11 +30,11 @@ const Portfolio = () => {
         />
         <Porto 
         pic = {blog}
-        site = "#"
+        site = "/blog"
         />
         <Porto 
         pic = {atm}
-        site = "#"
+        site = "/atm-app"
         />
         <Porto 
         pic = {snap}
@@ -46,7 +46,7 @@ const Portfolio = () => {
         />
         <Porto 
         pic = {converter}
-        site = "#"
+        site = "/currency-converter"
         />
         <Porto 
         pic = {port}
@@ -54,7 +54,7 @@ const Portfolio = () => {
         />
         <Porto 
         pic = {htmlport}
-        site = "#"
+        site = "/htmlportfolio"
         />
         </div>
 
