@@ -19,7 +19,7 @@ const portfolioData = [
     url: 'https://car-rental-one-puce.vercel.app/',
     title: 'Car Rental Services',
     description:
-    'Introducing an innovative Car Rental Services website, meticulously crafted using React. As the team lead of a dynamic group of four frontend developers and one backend developer, I spearheaded the project aimed at simplifying the car rental experience. Users can easily find and rent vehicles from their nearest locations through an intuitive interface. My responsibilities included overseeing the homepage design, managing routing, maintaining the central repository, and conducting thorough code reviews to ensure the highest quality standards throughout the development process.',
+    'Introducing an innovative Car Rental Services website, meticulously crafted using React. As the team lead of a dynamic group of four frontend developers and one backend developer, I spearheaded the project aimed at simplifying the car rental experience. Users can easily find and rent vehicles from their nearest locations through an intuitive interface.',
     image: carrental,
 
   },
