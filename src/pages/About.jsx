@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="text-[1.5rem] sm:text-[2rem] font-bold">About</h1>
       <hr className="border-2 border-blue-500 w-[3.2rem] mt-4" />
       <p className="mt-4 text-[0.9rem] sm:text-[1rem] leading-7">
-        I am a frontend developer with over 6 years of experience working with web technologies such as HTML, CSS, JavaScript, and WordPress, React, Tailwind CSS, and Git version control. My journey in tech has equipped me with a diverse set of skills, and I am proud to hold international certifications, including Oracle Database SQL Certified Expert (OCE), Adobe Certified Associate (ACA) in Web Communications using Adobe Dreamweaver, and several New Horizons certifications in Java, Comptia A+, and CCNA, among others.
+        I am a frontend developer with over 6 years of experience working with web technologies such as HTML, CSS, JavaScript, WordPress, React, Tailwind CSS, and Git version control. My journey in tech has equipped me with a diverse set of skills, and I am proud to hold international certifications, including Oracle Database SQL Certified Expert (OCE), Adobe Certified Associate (ACA) in Web Communications using Adobe Dreamweaver, and several New Horizons certifications in Java, Comptia A+, and CCNA, among others.
       </p>
 
       <div className="flex flex-col sm:flex-row sm:items-center gap-6 mt-8">
