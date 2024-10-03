@@ -15,7 +15,7 @@ const portfolioData = [
     slug: 'car-rental',
     category: 'Services',
     stack: 'ReactJS, TailwindCSS, Redux, Git',
-    status: 'Ongoing',
+    date: 'Ongoing',
     url: 'https://car-rental-one-puce.vercel.app/',
     title: 'Car Rental Services',
     description:
@@ -27,7 +27,7 @@ const portfolioData = [
     slug: 'alphanews',
     category: 'Newspaper',
     stack: 'Wordpress',
-    status: 'Completed',
+    date: 'Completed',
     url: 'https://alphanewsng.com/',
     title: 'A News Blog',
     description:

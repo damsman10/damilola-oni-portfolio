@@ -7,18 +7,12 @@ const Resume = () => {
       <h1 className="text-[1.5rem] sm:text-[2rem] font-bold mb-4">Resume</h1>
       <hr className="border-2 border-blue-500 w-[3.2rem] mb-4" />
       <p className="leading-7 mb-6">
-        As a physicist with an intense passion for technology and computerization, I possess mental and professional skills that enable me to solve problems and challenges by logical thinking through applied science and coding.
+      A technology enthusiast with a solid background in applied science and coding. Demonstrates strong problem-solving abilities and analytical thinking to tackle complex challenges. Passionate about leveraging technical expertise to drive innovation and efficiency in dynamic environments.
       </p>
 
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="flex-1 lg:w-3/5">
           <h2 className="text-red-500 font-bold text-[1.3rem] mt-8 mb-4">EXPERIENCE</h2>
-          <div className="mb-6">
-            <Experience title="Software Developer (Intern)" companyperiod="SAIL Innovation Lab, 06/2024 - present" />
-            <ul className="list-disc ml-8 mt-2">
-              <li>Creation of information architecture in conjunction with interactive design visual design, and navigation development for next-generation web-based solutions.</li>
-            </ul>
-          </div>
 
           <div className="mb-6">
             <Experience title="Technical Officer" companyperiod="Daily Post Media Ltd, 01/2020 - present" />
@@ -28,6 +22,13 @@ const Resume = () => {
               <li>Social Media Management</li>
               <li>Graphics Design</li>
               <li>Research and Data Analysis</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <Experience title="Software Developer (Intern)" companyperiod="SAIL Innovation Lab, 06/2024 - 09/2024" />
+            <ul className="list-disc ml-8 mt-2">
+              <li>Creation of information architecture in conjunction with interactive design visual design, and navigation development for next-generation web-based solutions.</li>
             </ul>
           </div>
 
