@@ -28,10 +28,10 @@ const portfolioData = [
     category: 'Newspaper',
     stack: 'Wordpress',
     status: 'Completed',
-    url: '/#',
+    url: 'https://alphanewsng.com/',
     title: 'A News Blog',
     description:
-      'A beautiful and efficient wordpress news website i made for a client. He maintained it for about two years till he stopped paying host and domain fee.',
+      'A beautiful and efficient wordpress news website i made for a client.',
     image: alpha,
   },
   {
