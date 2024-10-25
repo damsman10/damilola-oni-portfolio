@@ -53,12 +53,13 @@ const Resume = () => {
           <h2 className="text-red-500 font-bold text-[1.3rem] mt-8 mb-4">CERTIFICATIONS</h2>
           <ul className="list-disc ml-8 mt-4 space-y-2">
             <li>Oracle Database SQL Certified Expert (OCE), <span className="font-bold">Oracle Corporation</span></li>
+            <li>Software Development Training, <span className="font-bold">SAIL</span></li>
+            <li>React Js Certificate <span className="font-bold">Great Learning</span></li>
             <li>SQL Database Management, <span className="font-bold">New Horizons</span></li>
             <li>Java Programming Language, <span className="font-bold">New Horizons</span></li>
             <li>Comptia A+, <span className="font-bold">New Horizons</span></li>
             <li>Adobe Certified Associate (ACA) Web Communication using Adobe Dreamweaver, <span className="font-bold">Adobe</span></li>
             <li>Cisco Certified Network Associate (CCNA), <span className="font-bold">New Horizons</span></li>
-            <li>Software Development Training, <span className="font-bold">SAIL</span></li>
             <li>Certified Associate in Project Management, <span className="font-bold">Olabod Project Consult Limited</span></li>
             <li>Microsoft Project Certification, <span className="font-bold">Olabod Project Consult Limited</span></li>
           </ul>
