@@ -26,7 +26,7 @@ const Resume = () => {
           </div>
 
           <div className="mb-6">
-            <Experience title="Front End Engineer" companyperiod="Salesplat Technologies, 10/2024 - present" />
+            <Experience title="Front End Engineer" companyperiod="Salesplat Technologies, 09/2024 - present" />
             <ul className="list-disc ml-8 mt-2">
               <li>Collaborated with a diverse development team to create responsive and engaging web applications, ensuring a seamless user experience.</li>
               <li>Tested applications across various browsers and devices to guarantee a smooth and consistent experience for all users.</li>
