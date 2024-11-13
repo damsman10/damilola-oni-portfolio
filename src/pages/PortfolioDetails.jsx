@@ -1,16 +1,28 @@
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import atm from './pageassets/ATM-App.png';
 import carrental from './pageassets/Car-Rental.png';
 import alpha from './pageassets/alpha.png';
 import blog from './pageassets/blog.png';
 import atmapp from './pageassets/ATM-App.png';
 import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
+import retain from './pageassets/retain.png';
 
 // Data for PortfolioDetails
 const portfolioData = [
+  {
+    slug: 'retain',
+    category: 'Education',
+    stack: 'ReactJS, TailwindCSS, Redux, Git',
+    date: 'Ongoing',
+    url: 'https://incubate-retain.vercel.app/',
+    title: 'Incubate Retain',
+    description:
+    'I developed the Incubate-Retain website, an ad platform for a tech training platform, using React. As the sole front-end developer, I designed an intuitive interface for users to explore courses, access resources, ask questions, and apply. This project highlights my skills in front-end development, UX design, and delivering user-centric solutions.',
+    image: retain,
+
+  },
   {
     slug: 'car-rental',
     category: 'Services',
