@@ -8,6 +8,7 @@ import atmapp from './pageassets/ATM-App.png';
 import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
 import retain from './pageassets/retain.png';
+import cipher from './pageassets/Cipher-Machine.png'
 
 // Data for PortfolioDetails
 const portfolioData = [
@@ -21,6 +22,18 @@ const portfolioData = [
     description:
     'I developed the Incubate-Retain website, an ad platform for a tech training platform, using React. As the sole front-end developer, I designed an intuitive interface for users to explore courses, access resources, ask questions, and apply. This project highlights my skills in front-end development, UX design, and delivering user-centric solutions.',
     image: retain,
+
+  },
+  {
+    slug: 'cipher-machine',
+    category: 'Web Application',
+    stack: 'ReactJS, TailwindCSS, Javacript, Git',
+    date: 'Ongoing',
+    url: 'https://cipher-web-app.vercel.app/',
+    title: 'Car Machine Web App',
+    description:
+    'Introducing an advanced Cipher Machine web app, designed to encrypt and decrypt messages using a variety of cipher algorithms. Built with React and TailwindCSS, this app provides a user-friendly interface for encoding and decoding text, making it ideal for learning about cryptography or securing messages.',
+    image: cipher,
 
   },
   {

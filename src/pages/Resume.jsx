@@ -15,7 +15,7 @@ const Resume = () => {
           <h2 className="text-red-500 font-bold text-[1.3rem] mt-8 mb-4">EXPERIENCE</h2>
 
           <div className="mb-6">
-            <Experience title="Technical Officer" companyperiod="Daily Post Media Ltd, 01/2020 - present" />
+            <Experience title="Chief Technical Officer" companyperiod="Daily Post Media Ltd, 01/2020 - present" />
             <ul className="list-disc ml-8 mt-2">
               <li>Website maintenance</li>
               <li>Ad Operations</li>
@@ -26,7 +26,7 @@ const Resume = () => {
           </div>
 
           <div className="mb-6">
-            <Experience title="Front End Engineer" companyperiod="Salesplat Technologies, 09/2024 - present" />
+            <Experience title="Front End Engineer" companyperiod="Salesplat Technologies, 10/2023 - present" />
             <ul className="list-disc ml-8 mt-2">
               <li>Collaborated with a diverse development team to create responsive and engaging web applications, ensuring a seamless user experience.</li>
               <li>Tested applications across various browsers and devices to guarantee a smooth and consistent experience for all users.</li>
@@ -37,7 +37,7 @@ const Resume = () => {
           </div>
 
           <div className="mb-6">
-            <Experience title="Software Developer (Intern)" companyperiod="SAIL Innovation Lab, 06/2024 - 09/2024" />
+            <Experience title="Software Developer (Contract)" companyperiod="SAIL Innovation Lab, 06/2024 - 09/2024" />
             <ul className="list-disc ml-8 mt-2">
               <li>I focused on creating user-friendly web solutions by organizing information and improving navigation to enhance the overall user experience.</li>
             </ul>
