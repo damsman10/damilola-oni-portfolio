@@ -30,7 +30,7 @@ const Resume = () => {
             <ul className="list-disc ml-8 mt-2">
               <li>Collaborated with a diverse development team to create responsive and engaging web applications, ensuring a seamless user experience.</li>
               <li>Tested applications across various browsers and devices to guarantee a smooth and consistent experience for all users.</li>
-              <li>SManaged code changes using Git, promoting team collaboration and ensuring smooth integration of new features.</li>
+              <li>Managed code changes using Git, promoting team collaboration and ensuring smooth integration of new features.</li>
               <li>Conducted thorough testing and debugging of frontend components, quickly resolving issues to maintain high standards.</li>
               <li>Partnered closely with backend developers and designers to align efforts and effectively meet project goals.</li>
             </ul>
