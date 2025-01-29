@@ -9,7 +9,7 @@ import blog from './pageassets/blog.png'
 import converter from './pageassets/curr-conv.png'
 import snap from './pageassets/snap-pagw.jpg'
 import retain from './pageassets/retain.png'
-import newsletter from './pageassets/email-Template.png'
+import newsletter from './pageassets/Email-Template.png'
 import cipher from './pageassets/Cipher-Machine.png'
 
 const Portfolio = () => {
