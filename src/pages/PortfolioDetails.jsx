@@ -9,6 +9,7 @@ import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
 import retain from './pageassets/retain.png';
 import cipher from './pageassets/Cipher-Machine.png'
+import newsletter from './pageassets/email-Template.png'
 
 // Data for PortfolioDetails
 const portfolioData = [
@@ -25,6 +26,18 @@ const portfolioData = [
 
   },
   {
+    slug: 'car-rental',
+    category: 'Services',
+    stack: 'ReactJS, TailwindCSS, Redux, Git',
+    date: 'Ongoing',
+    url: 'https://car-rental-lmd.vercel.app/',
+    title: 'Car Rental Services',
+    description:
+    'Introducing an innovative Car Rental Services website, meticulously crafted using React. As the team lead of a dynamic group of four frontend developers and one backend developer, I spearheaded the project aimed at simplifying the car rental experience. Users can easily find and rent vehicles from their nearest locations through an intuitive interface.',
+    image: carrental,
+
+  },
+  {
     slug: 'cipher-machine',
     category: 'Web Application',
     stack: 'ReactJS, TailwindCSS, Javacript, Git',
@@ -37,16 +50,15 @@ const portfolioData = [
 
   },
   {
-    slug: 'car-rental',
-    category: 'Services',
-    stack: 'ReactJS, TailwindCSS, Redux, Git',
-    date: 'Ongoing',
-    url: 'https://car-rental-lmd.vercel.app/',
-    title: 'Car Rental Services',
+    slug: 'email-newsletter',
+    category: 'Email Design',
+    stack: 'HTML, CSS, GitHub Pages, PutsMail',
+    date: 'Completed',
+    url: 'https://damsman10.github.io/incubate_newsletter/',
+    title: 'Email Newsletter Template',
     description:
-    'Introducing an innovative Car Rental Services website, meticulously crafted using React. As the team lead of a dynamic group of four frontend developers and one backend developer, I spearheaded the project aimed at simplifying the car rental experience. Users can easily find and rent vehicles from their nearest locations through an intuitive interface.',
-    image: carrental,
-
+    'Designed a professional email newsletter template for Salesplat, ensuring responsiveness and compatibility across email clients. The template includes dynamic placeholders for personalization and integrates brand assets seamlessly. This project serves as a reusable and scalable email design for marketing campaigns.',
+    image: newsletter,
   },
   {
     slug: 'alphanews',

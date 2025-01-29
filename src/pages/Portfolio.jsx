@@ -9,6 +9,7 @@ import blog from './pageassets/blog.png'
 import converter from './pageassets/curr-conv.png'
 import snap from './pageassets/snap-pagw.jpg'
 import retain from './pageassets/retain.png'
+import newsletter from './pageassets/email-Template.png'
 import cipher from './pageassets/Cipher-Machine.png'
 
 const Portfolio = () => {
@@ -27,16 +28,20 @@ const Portfolio = () => {
         site = "/retain"
         />
         <Porto 
-        pic = {cipher}
-        site = "/cipher-machine"
-        />
-        <Porto 
         pic = {carrental}
         site = "/car-rental"
         />
         <Porto 
+        pic = {newsletter}
+        site = "/email-newsletter"
+        />
+        <Porto 
         pic = {alpha}
         site = "/alphanews"
+        />
+        <Porto 
+        pic = {cipher}
+        site = "/cipher-machine"
         />
         <Porto 
         pic = {blog}
