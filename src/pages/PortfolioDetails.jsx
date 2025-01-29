@@ -9,7 +9,7 @@ import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
 import retain from './pageassets/retain.png';
 import cipher from './pageassets/Cipher-Machine.png'
-import newsletter from './pageassets/email-Template.png'
+import newsletter from './pageassets/Email-Template.png'
 
 // Data for PortfolioDetails
 const portfolioData = [
