@@ -27,7 +27,7 @@ const Portfolio = () => {
       <div className="projects flex justify-between items-center gap-4 flex-wrap mr-4">
         <Porto 
         pic = {SupportPro}
-        site = "/retain"
+        site = "/support-pro"
         />
         <Porto 
         pic = {retain}
@@ -35,7 +35,7 @@ const Portfolio = () => {
         />
         <Porto 
         pic = {BallotNaija}
-        site = "/retain"
+        site = "/ballot-naija"
         />
         <Porto 
         pic = {carrental}

@@ -28,7 +28,7 @@ const portfolioData = [
 
   },
   {
-    slug: 'supportPro',
+    slug: 'support-pro',
     category: 'Education',
     stack: 'ReactJS, TailwindCSS, Redux, Git',
     date: 'Completed',
@@ -39,18 +39,7 @@ const portfolioData = [
     image: SupportPro,
 
   },
-  {
-    slug: 'BallotNaija',
-    category: 'Media & Entertainment',
-    stack: 'ReactJS, TailwindCSS, Redux, Git',
-    date: 'Ongoing',
-    url: 'https://ballot-naija.vercel.app/',
-    title: 'Ballot Naija',
-    description:
-    '',
-    image: BallotNaija,
-
-  },
+  
   {
     slug: 'car-rental',
     category: 'Services',
@@ -63,6 +52,20 @@ const portfolioData = [
     image: carrental,
 
   },
+
+  {
+    slug: 'ballot-naija',
+    category: 'Media & Entertainment',
+    stack: 'ReactJS, TailwindCSS, Redux, Git',
+    date: 'Ongoing',
+    url: 'https://ballot-naija.vercel.app/',
+    title: 'Ballot Naija',
+    description:
+    '',
+    image: BallotNaija,
+
+  },
+  
   {
     slug: 'cipher-machine',
     category: 'Web Application',
