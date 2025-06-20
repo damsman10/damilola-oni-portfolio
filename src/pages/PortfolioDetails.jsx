@@ -8,6 +8,8 @@ import atmapp from './pageassets/ATM-App.png';
 import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
 import retain from './pageassets/retain.png';
+import SupportPro from './pageassets/SupportPro.png'
+import BallotNaija from './pageassets/BallotNaija.png'
 import cipher from './pageassets/Cipher-Machine.png'
 import newsletter from './pageassets/Email-Template.png'
 
@@ -23,6 +25,30 @@ const portfolioData = [
     description:
     'I developed the Incubate-Retain website, an ad platform for a tech training platform, using React. As the sole front-end developer, I designed an intuitive interface for users to explore courses, access resources, ask questions, and apply. This project highlights my skills in front-end development, UX design, and delivering user-centric solutions.',
     image: retain,
+
+  },
+  {
+    slug: 'supportPro',
+    category: 'Education',
+    stack: 'ReactJS, TailwindCSS, Redux, Git',
+    date: 'Completed',
+    url: 'https://support-pro-training.vercel.app/',
+    title: 'Support Pro HR Training',
+    description:
+    '',
+    image: SupportPro,
+
+  },
+  {
+    slug: 'BallotNaija',
+    category: 'Media & Entertainment',
+    stack: 'ReactJS, TailwindCSS, Redux, Git',
+    date: 'Ongoing',
+    url: 'https://ballot-naija.vercel.app/',
+    title: 'Ballot Naija',
+    description:
+    '',
+    image: BallotNaija,
 
   },
   {

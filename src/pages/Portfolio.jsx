@@ -9,6 +9,8 @@ import blog from './pageassets/blog.png'
 import converter from './pageassets/curr-conv.png'
 import snap from './pageassets/snap-pagw.jpg'
 import retain from './pageassets/retain.png'
+import SupportPro from './pageassets/SupportPro.png'
+import BallotNaija from './pageassets/BallotNaija.png'
 import newsletter from './pageassets/Email-Template.png'
 import cipher from './pageassets/Cipher-Machine.png'
 
@@ -24,7 +26,15 @@ const Portfolio = () => {
 
       <div className="projects flex justify-between items-center gap-4 flex-wrap mr-4">
         <Porto 
+        pic = {SupportPro}
+        site = "/retain"
+        />
+        <Porto 
         pic = {retain}
+        site = "/retain"
+        />
+        <Porto 
+        pic = {BallotNaija}
         site = "/retain"
         />
         <Porto 
