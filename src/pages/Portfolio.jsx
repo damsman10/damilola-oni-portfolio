@@ -13,6 +13,7 @@ import SupportPro from './pageassets/SupportPro.png'
 import BallotNaija from './pageassets/BallotNaija.png'
 import newsletter from './pageassets/Email-Template.png'
 import cipher from './pageassets/Cipher-Machine.png'
+import adtrakker from './pageassets/adtrakker.png'
 
 const Portfolio = () => {
   return (
@@ -25,6 +26,10 @@ const Portfolio = () => {
 
 
       <div className="projects flex justify-between items-center gap-4 flex-wrap mr-4">
+        <Porto 
+        pic = {adtrakker}
+        site = "/adtrakker"
+        />
         <Porto 
         pic = {SupportPro}
         site = "/support-pro"

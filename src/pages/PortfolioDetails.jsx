@@ -8,6 +8,7 @@ import atmapp from './pageassets/ATM-App.png';
 import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
 import retain from './pageassets/retain.png';
+import adtrakker from './pageassets/adtrakker.png';
 import SupportPro from './pageassets/SupportPro.png'
 import BallotNaija from './pageassets/BallotNaija.png'
 import cipher from './pageassets/Cipher-Machine.png'
@@ -15,6 +16,30 @@ import newsletter from './pageassets/Email-Template.png'
 
 // Data for PortfolioDetails
 const portfolioData = [
+  {
+  slug: 'adtrakker',
+  category: 'Marketing Tech',
+  stack: 'ReactJS, TailwindCSS, Redux, Git',
+  date: 'Ongoing',
+  url: 'https://ad-trakker.vercel.app/',
+  title: 'AdTrakker Dashboard',
+  description:
+    'AdTrakker is a campaign performance tracking web app built with React. I designed and developed this dashboard to help businesses monitor ad engagement metrics, visualize campaign data, and optimize advertising strategies. It emphasizes clarity in analytics and actionable insights through an intuitive UI.',
+  image: adtrakker,
+  },
+
+  {
+  slug: 'support-pro',
+  category: 'Education',
+  stack: 'ReactJS, TailwindCSS, Redux, Git',
+  date: 'Completed',
+  url: 'https://support-pro-training.vercel.app/',
+  title: 'Support Pro HR Training',
+  description:
+    'Support Pro is an HR training platform focused on enhancing workplace efficiency. I developed the frontend using React and TailwindCSS, implementing interactive modules and learning progress tracking. The platform emphasizes accessible design and a seamless learning experience.',
+  image: SupportPro,
+  },
+
   {
     slug: 'retain',
     category: 'Education',
@@ -27,18 +52,7 @@ const portfolioData = [
     image: retain,
 
   },
-  {
-    slug: 'support-pro',
-    category: 'Education',
-    stack: 'ReactJS, TailwindCSS, Redux, Git',
-    date: 'Completed',
-    url: 'https://support-pro-training.vercel.app/',
-    title: 'Support Pro HR Training',
-    description:
-    '',
-    image: SupportPro,
-
-  },
+  
   
   {
     slug: 'car-rental',
@@ -61,11 +75,11 @@ const portfolioData = [
     url: 'https://ballot-naija.vercel.app/',
     title: 'Ballot Naija',
     description:
-    '',
+    'Ballot Niaja is a profssional website i craeted from scratch to be used as both website and news aggregator. It combines news from two websites, daily post and premium times using both websites news feed. It is also a platform for giveaways.',
     image: BallotNaija,
 
   },
-  
+
   {
     slug: 'cipher-machine',
     category: 'Web Application',
