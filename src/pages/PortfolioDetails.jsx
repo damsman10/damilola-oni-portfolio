@@ -18,7 +18,7 @@ import newsletter from './pageassets/Email-Template.png'
 const portfolioData = [
   {
   slug: 'adtrakker',
-  category: 'Marketing Tech',
+  category: 'Performance Tracking',
   stack: 'ReactJS, TailwindCSS, Redux, Git',
   date: 'Ongoing',
   url: 'https://ad-trakker.vercel.app/',
@@ -30,13 +30,13 @@ const portfolioData = [
 
   {
   slug: 'support-pro',
-  category: 'Education',
-  stack: 'ReactJS, TailwindCSS, Redux, Git',
+  category: 'Marketing Tech',
+  stack: 'ReactJS, TailwindCSS, Git',
   date: 'Completed',
   url: 'https://support-pro-training.vercel.app/',
   title: 'Support Pro HR Training',
   description:
-    'Support Pro is an HR training platform focused on enhancing workplace efficiency. I developed the frontend using React and TailwindCSS, implementing interactive modules and learning progress tracking. The platform emphasizes accessible design and a seamless learning experience.',
+    'Support Pro is a promotional landing page designed to showcase services and drive user engagement. I developed this single-page application using React and TailwindCSS, focusing on clean layout, responsive design, and persuasive ad copy integration to support targeted marketing efforts.',
   image: SupportPro,
   },
 
