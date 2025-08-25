@@ -13,20 +13,23 @@ import SupportPro from './pageassets/SupportPro.png'
 import BallotNaija from './pageassets/BallotNaija.png'
 import cipher from './pageassets/Cipher-Machine.png'
 import newsletter from './pageassets/Email-Template.png'
+import Syndeco from './pageassets/Syndeco-Technologies-shot.png'
 
 // Data for PortfolioDetails
 const portfolioData = [
+  
   {
-  slug: 'adtrakker',
-  category: 'Performance Tracking',
-  stack: 'ReactJS, TailwindCSS, Redux, Git',
-  date: 'Ongoing',
-  url: 'https://ad-trakker.vercel.app/',
-  title: 'AdTrakker Dashboard',
+  slug: 'syndeco',
+  category: 'Corporate Website',
+  stack: 'ReactJS, TailwindCSS, Vite, Framer Motion, Git',
+  date: 'Completed',
+  url: 'https://syndeco-technologies.vercel.app/',
+  title: 'Syndeco Technologies Website',
   description:
-    'AdTrakker is a campaign performance tracking web app built with React. I designed and developed this dashboard to help businesses monitor ad engagement metrics, visualize campaign data, and optimize advertising strategies. It emphasizes clarity in analytics and actionable insights through an intuitive UI.',
-  image: adtrakker,
+    'Syndeco Technologies is a modern corporate website built to highlight the company’s services, expertise, and career opportunities. I developed this multi-page application with React and TailwindCSS, ensuring a professional design, optimized performance, and mobile responsiveness. The site also features dynamic sections like Careers and Blog for scalability and content management.',
+  image: Syndeco,
   },
+
 
   {
   slug: 'support-pro',
@@ -39,7 +42,18 @@ const portfolioData = [
     'Support Pro is a promotional landing page designed to showcase services and drive user engagement. I developed this single-page application using React and TailwindCSS, focusing on clean layout, responsive design, and persuasive ad copy integration to support targeted marketing efforts.',
   image: SupportPro,
   },
-
+  
+  {
+  slug: 'adtrakker',
+  category: 'Performance Tracking',
+  stack: 'ReactJS, TailwindCSS, Redux, Git',
+  date: 'Ongoing',
+  url: 'https://ad-trakker.vercel.app/',
+  title: 'AdTrakker Dashboard',
+  description:
+    'AdTrakker is a campaign performance tracking web app built with React. I designed and developed this dashboard to help businesses monitor ad engagement metrics, visualize campaign data, and optimize advertising strategies. It emphasizes clarity in analytics and actionable insights through an intuitive UI.',
+  image: adtrakker,
+  },
   {
     slug: 'retain',
     category: 'Education',
