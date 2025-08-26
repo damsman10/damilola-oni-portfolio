@@ -20,7 +20,7 @@ const Resume = () => {
 
 
           <div className="mb-6 bg-gray-50 p-4 rounded shadow-sm transition duration-300 hover:shadow-md">
-            <Experience title="Front End Engineer" companyperiod="Salesplat Technologies, 06/2023 - 09/2023" />
+            <Experience title="Front End Engineer" companyperiod="Salesplat Technologies, 10/2023 - present" />
             <ul className="list-disc ml-8 mt-2 text-gray-700 space-y-1">
               <li>Collaborated with a diverse development team to create responsive and engaging web applications.</li>
               <li>Tested applications across various browsers and devices for consistent performance.</li>
@@ -31,7 +31,7 @@ const Resume = () => {
           </div>
 
           <div className="mb-6 bg-gray-50 p-4 rounded shadow-sm transition duration-300 hover:shadow-md">
-            <Experience title="Software Developer (Contract)" companyperiod="SAIL Innovation Lab, 06/2024 - 09/2024" />
+            <Experience title="Software Developer (Contract)" companyperiod="SAIL Innovation Lab, 06/2023 - 09/2023" />
             <ul className="list-disc ml-8 mt-2 text-gray-700">
               <li>Created user-friendly web solutions by organizing information and improving navigation.</li>
             </ul>
@@ -47,7 +47,7 @@ const Resume = () => {
               <li>Research and Data Analysis</li>
             </ul>
           </div>
-          
+
           <div className="mb-6 bg-gray-50 p-4 rounded shadow-sm transition duration-300 hover:shadow-md">
             <Experience title="Information Technology Instructor" companyperiod="New Horizons Computer Learning Centers, 12/2018 - 12/2019" />
             <ul className="list-disc ml-8 mt-2 text-gray-700 space-y-1">
