@@ -1,19 +1,23 @@
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import carrental from './pageassets/Car-Rental.png';
-import alpha from './pageassets/alpha.png';
 import blog from './pageassets/blog.png';
 import atmapp from './pageassets/ATM-App.png';
 import htmlport from './pageassets/htmlportfolio.png';
 import currconv from './pageassets/curr-conv.png';
 import retain from './pageassets/retain.png';
 import adtrakker from './pageassets/adtrakker.png';
-import SupportPro from './pageassets/SupportPro.png'
 import BallotNaija from './pageassets/BallotNaija.png'
 import cipher from './pageassets/Cipher-Machine.png'
 import newsletter from './pageassets/Email-Template.png'
+
+import carrental from './pageassets/Car-Rental.png';
+import alpha from './pageassets/alpha.png';
+import SupportPro from './pageassets/SupportPro.png'
 import Syndeco from './pageassets/Syndeco-Technologies-shot.png'
+import wedding from './pageassets/wedding.png'
+import everyoung from './pageassets/everyoung.png'
+
 
 // Data for PortfolioDetails
 const portfolioData = [
@@ -30,6 +34,29 @@ const portfolioData = [
   image: Syndeco,
   },
 
+  {
+  slug: 'wedding-rsvp',
+  category: 'Event Tech',
+  stack: 'ReactJS, Apps Script, Quickchart.io, TailwindCSS, Git',
+  date: 'Completed',
+  url: 'https://demo-wedding-site.vercel.app/',
+  title: 'Automated Wedding Website & RSVP Platform',
+  description: 
+    'A fully automated wedding website built to elevate the modern wedding experience. The platform brings together RSVP management, event timelines, guest communication, and personalized content into a single polished interface. The project emphasizes emotional storytelling, responsive layouts, and automation-driven user interactions to simplify event coordination and enhance guest engagement.',
+  image: wedding,
+  },
+
+  {
+  slug: 'everyoung-clinic',
+  category: 'Health Tech',
+  stack: 'ReactJS, TailwindCSS, Firebase Authentication',
+  date: 'Ongoing',
+  url: 'https://everyoung-clinic-fcef.vercel.app/',
+  title: 'EverYoung Clinic Management System',
+  description:
+    'EverYoung Clinic Management System is a web-based application designed to support day-to-day clinic operations. The system provides a secure authentication flow and a staff-facing dashboard for managing patients and appointments. It was built with a focus on clean UI, responsive design, and scalable frontend architecture suitable for small to mid-sized healthcare facilities.',
+  image: everyoung,
+  },
 
   {
   slug: 'support-pro',

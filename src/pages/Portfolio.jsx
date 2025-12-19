@@ -8,13 +8,15 @@
 // import cipher from './pageassets/Cipher-Machine.png'
 // import htmlport from './pageassets/htmlportfolio.png'
 // import recipe from './pageassets/recipe-book.png'
+// import adtrakker from './pageassets/adtrakker.png'
+// import retain from './pageassets/retain.png'
 import Porto from "./pagecomponents/Porto"
 import carrental from './pageassets/Car-Rental.png'
 import alpha from './pageassets/alpha.png'
-import retain from './pageassets/retain.png'
 import SupportPro from './pageassets/SupportPro.png'
-import adtrakker from './pageassets/adtrakker.png'
 import Syndeco from './pageassets/Syndeco-Technologies-shot.png'
+import everyoung from './pageassets/everyoung.png'
+import wedding from './pageassets/wedding.png'
 
 
 const Portfolio = () => {
@@ -33,6 +35,10 @@ const Portfolio = () => {
         site = "/syndeco"
         />
         <Porto 
+        pic = {wedding}
+        site = "/wedding-rsvp"
+        />
+        <Porto 
         pic = {SupportPro}
         site = "/support-pro"
         />
@@ -41,19 +47,23 @@ const Portfolio = () => {
         site = "/alphanews"
         />
         <Porto 
-        pic = {retain}
-        site = "/retain"
+        pic = {everyoung}
+        site = "/everyoung-clinic"
         />
         <Porto 
         pic = {carrental}
         site = "/car-rental"
         />
+
+        {/* 
+        <Porto 
+        pic = {retain}
+        site = "/retain"
+        />
         <Porto 
         pic = {adtrakker}
         site = "/adtrakker"
         />
-
-        {/* <Porto 
         <Porto 
         pic = {newsletter}
         site = "/email-newsletter"
@@ -62,6 +72,7 @@ const Portfolio = () => {
         pic = {BallotNaija}
         site = "/ballot-naija"
         />
+        <Porto 
         pic = {cipher}
         site = "/cipher-machine"
         />
